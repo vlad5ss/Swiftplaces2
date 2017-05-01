@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		04CBD51F1EB0ECA8004EB082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD51E1EB0ECA8004EB082 /* AppDelegate.swift */; };
-		04CBD5211EB0ECA8004EB082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD5201EB0ECA8004EB082 /* ViewController.swift */; };
 		04CBD5241EB0ECA9004EB082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD5221EB0ECA9004EB082 /* Main.storyboard */; };
 		04CBD5261EB0ECA9004EB082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD5251EB0ECA9004EB082 /* Assets.xcassets */; };
 		04CBD5291EB0ECA9004EB082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBD5271EB0ECA9004EB082 /* LaunchScreen.storyboard */; };
+		04CBD5331EB0F70B004EB082 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD5321EB0F70B004EB082 /* FirstViewController.swift */; };
+		04CBD5351EB0F726004EB082 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBD5341EB0F726004EB082 /* SecondViewController.swift */; };
+		04CBD5371EB0F7EA004EB082 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBD5361EB0F7EA004EB082 /* MapKit.framework */; };
+		04CBD5391EB0F7F1004EB082 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBD5381EB0F7F1004EB082 /* SwiftyJSON.framework */; };
+		04CBD53B1EB0F7FD004EB082 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBD53A1EB0F7FD004EB082 /* CoreLocation.framework */; };
+		04CBD56F1EB1F98D004EB082 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBD56E1EB1F98D004EB082 /* Alamofire.framework */; };
+		04CDFBB51EB756E50022A868 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFBB41EB756E40022A868 /* Places.swift */; };
+		04CDFBB71EB757490022A868 /* DataPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFBB61EB757490022A868 /* DataPlaces.swift */; };
+		D0910EAA285E6E04597A38D0 /* Pods_Swiftplaces2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B170FE2F4A261B94F54F748 /* Pods_Swiftplaces2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04CBD51B1EB0ECA8004EB082 /* Swiftplaces2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftplaces2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CBD51E1EB0ECA8004EB082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04CBD5201EB0ECA8004EB082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04CBD5231EB0ECA9004EB082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CBD5251EB0ECA9004EB082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CBD5281EB0ECA9004EB082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CBD52A1EB0ECA9004EB082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CBD5321EB0F70B004EB082 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		04CBD5341EB0F726004EB082 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04CBD5361EB0F7EA004EB082 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04CBD5381EB0F7F1004EB082 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Swiftplaces2-cwbwxrahtlxyitbtwcdxdmojfqeq/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		04CBD53A1EB0F7FD004EB082 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04CBD56E1EB1F98D004EB082 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Swiftplaces2-cwbwxrahtlxyitbtwcdxdmojfqeq/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		04CDFBB41EB756E40022A868 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		04CDFBB61EB757490022A868 /* DataPlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPlaces.swift; sourceTree = "<group>"; };
+		1B170FE2F4A261B94F54F748 /* Pods_Swiftplaces2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftplaces2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02537763DC4320381C473A6 /* Pods-Swiftplaces2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftplaces2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftplaces2/Pods-Swiftplaces2.release.xcconfig"; sourceTree = "<group>"; };
+		EE6745E647664D15E758089D /* Pods-Swiftplaces2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftplaces2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftplaces2/Pods-Swiftplaces2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CBD56F1EB1F98D004EB082 /* Alamofire.framework in Frameworks */,
+				04CBD53B1EB0F7FD004EB082 /* CoreLocation.framework in Frameworks */,
+				04CBD5391EB0F7F1004EB082 /* SwiftyJSON.framework in Frameworks */,
+				04CBD5371EB0F7EA004EB082 /* MapKit.framework in Frameworks */,
+				D0910EAA285E6E04597A38D0 /* Pods_Swiftplaces2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				04CBD51D1EB0ECA8004EB082 /* Swiftplaces2 */,
 				04CBD51C1EB0ECA8004EB082 /* Products */,
+				5AF45E1F2A0B996DD3452555 /* Pods */,
+				9163612C8538A6C9A9BEBD9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,38 @@
 		04CBD51D1EB0ECA8004EB082 /* Swiftplaces2 */ = {
 			isa = PBXGroup;
 			children = (
+				04CDFBB61EB757490022A868 /* DataPlaces.swift */,
 				04CBD51E1EB0ECA8004EB082 /* AppDelegate.swift */,
-				04CBD5201EB0ECA8004EB082 /* ViewController.swift */,
+				04CBD5321EB0F70B004EB082 /* FirstViewController.swift */,
+				04CBD5341EB0F726004EB082 /* SecondViewController.swift */,
 				04CBD5221EB0ECA9004EB082 /* Main.storyboard */,
+				04CDFBB41EB756E40022A868 /* Places.swift */,
 				04CBD5251EB0ECA9004EB082 /* Assets.xcassets */,
 				04CBD5271EB0ECA9004EB082 /* LaunchScreen.storyboard */,
 				04CBD52A1EB0ECA9004EB082 /* Info.plist */,
 			);
 			path = Swiftplaces2;
+			sourceTree = "<group>";
+		};
+		5AF45E1F2A0B996DD3452555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE6745E647664D15E758089D /* Pods-Swiftplaces2.debug.xcconfig */,
+				B02537763DC4320381C473A6 /* Pods-Swiftplaces2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9163612C8538A6C9A9BEBD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CBD56E1EB1F98D004EB082 /* Alamofire.framework */,
+				04CBD53A1EB0F7FD004EB082 /* CoreLocation.framework */,
+				04CBD5381EB0F7F1004EB082 /* SwiftyJSON.framework */,
+				04CBD5361EB0F7EA004EB082 /* MapKit.framework */,
+				1B170FE2F4A261B94F54F748 /* Pods_Swiftplaces2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CBD52D1EB0ECA9004EB082 /* Build configuration list for PBXNativeTarget "Swiftplaces2" */;
 			buildPhases = (
+				62627BBA4D047BF79E9ACF46 /* [CP] Check Pods Manifest.lock */,
 				04CBD5171EB0ECA8004EB082 /* Sources */,
 				04CBD5181EB0ECA8004EB082 /* Frameworks */,
 				04CBD5191EB0ECA8004EB082 /* Resources */,
+				3A871A3C64EF24777206D619 /* [CP] Embed Pods Frameworks */,
+				544BDA9EBAD3C9B15D28632B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +148,7 @@
 				TargetAttributes = {
 					04CBD51A1EB0ECA8004EB082 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = SFQE5Y54BY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +184,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A871A3C64EF24777206D619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftplaces2/Pods-Swiftplaces2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544BDA9EBAD3C9B15D28632B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftplaces2/Pods-Swiftplaces2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62627BBA4D047BF79E9ACF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CBD5171EB0ECA8004EB082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CBD5211EB0ECA8004EB082 /* ViewController.swift in Sources */,
 				04CBD51F1EB0ECA8004EB082 /* AppDelegate.swift in Sources */,
+				04CBD5351EB0F726004EB082 /* SecondViewController.swift in Sources */,
+				04CBD5331EB0F70B004EB082 /* FirstViewController.swift in Sources */,
+				04CDFBB71EB757490022A868 /* DataPlaces.swift in Sources */,
+				04CDFBB51EB756E50022A868 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +362,10 @@
 		};
 		04CBD52E1EB0ECA9004EB082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6745E647664D15E758089D /* Pods-Swiftplaces2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SFQE5Y54BY;
 				INFOPLIST_FILE = Swiftplaces2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damneed.Swiftplaces2;
@@ -270,8 +376,10 @@
 		};
 		04CBD52F1EB0ECA9004EB082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02537763DC4320381C473A6 /* Pods-Swiftplaces2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SFQE5Y54BY;
 				INFOPLIST_FILE = Swiftplaces2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damneed.Swiftplaces2;
@@ -299,6 +407,7 @@
 				04CBD52F1EB0ECA9004EB082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Swiftplaces2 {
+  umbrella header "Pods-Swiftplaces2-umbrella.h"
+
+  export *
+  module * { export * }
+}
